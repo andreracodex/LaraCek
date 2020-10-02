@@ -2,7 +2,7 @@ Laravel-Checker
 ===========================
 
 Script guna mengecek "laravel requirements". 
-Sebelum menjalankan dan install laravel
+Sebelum menjalankan dan install laravel alih bahasa oleh Tirta.
 
 Use
 ---
