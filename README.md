@@ -1,14 +1,18 @@
-Laravel-Requirement-Checker
+Laravel-Checker
 ===========================
 
-Standalone script to check if a server meets the requirements for running the Laravel framework.
+Script guna mengecek "laravel requirements". 
+Sebelum menjalankan dan install laravel
 
 Use
 ---
-
-Place the check.php file into the web server and open it with your browser.
+1. Download LaravelCek pada https://github.com/andreracodex/LaraCek
+2. Exstrak berkas pada lingkungan live server anda xampp -> htdocs, wampp -> www
+3. Buka http://localhost/laracek/check.php 
+4. Pastikan semua requirements yang dibutuhkan sebelum install laravel terpenuhi (check list)
+5. Jika belum edit PHP.ini dan other requirement yang dibutuhkan.
 
 Notes
 -----
-
-Part of the code was taken from Laravel default view and Yii Framework Requirement Checker script.
+Alih bahasa dan panduan oleh : Tirta Rachmandiri.
+Di fork dari https://github.com/GastonHeim/Laravel-Requirement-Checker.
