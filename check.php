@@ -1,15 +1,5 @@
 <?php
 
-/**
- * Laravel Requirement Checker
- *
- * This standalone script will check if your server meets the requirements for running the
- * Laravel web application framework.
- *
- * @author Gastón Heim
- * @author Emerson Carvalho
- * @version 0.0.1
- */
 $latestLaravelVersion = '8.0';
 
 $laravelVersion = (isset($_GET['v'])) ? (string)$_GET['v'] : $latestLaravelVersion;
@@ -262,7 +252,7 @@ if (function_exists('apache_get_modules')) {
             margin: 0;
             font-size: 16px;
             font-family: 'Lato', sans-serif;
-            text-align: center;
+            text-align: left;
             color: #999;
         }
 
@@ -335,7 +325,7 @@ if (function_exists('apache_get_modules')) {
         </select>
     </form>
 
-    <h1>Server Requirements.</h1>
+    <h1>Kebutuhan Extensi Untuk Laravel.</h1>
 
     <p>
         PHP <?php
